@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Cheat Sheet CS-2610</title>
+	<!-- BootStrap needed HTML -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="staticHTML.css" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="buttons.js"></script>
+
+</head>
+
+<body>
+	<header class="container-fluid text-center">
+		<div class="row">
+			<div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+				<img src="html-static-site.png" alt="Banner Image" height="85" width="500">
+				<!--Mobile-->
+			</div>
+			<div class="hidden-xs col-sm-12 hidden-md hidden-lg">
+				<img src="html-static-site.png" alt="Banner Image" height="120" width="800">
+				<!--Tab-->
+			</div>
+			<div class="hidden-xs hidden-sm col-md-12 hidden-lg">
+				<img src="html-static-site.png" alt="Banner Image" height="150" width="1000">
+				<!--Desktop-->
+			</div>
+			<div class="hidden-xs hidden-sm hidden-md col-lg-12">
+				<img src="html-static-site.png" alt="Banner Image" height="170" width="1200">
+				<!--Large-->
+			</div>
+		</div>
+	</header>
+
+	<div class="panel-body">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="buttons">
+				<button class="btn btn-success btn-lg" onclick="showAssignment4()">Display Assignment 4 Write Up</button>
+				<button class="btn btn-success btn-lg" onclick="showAssignment5()">Display Assignment 5 Write Up</button>
+				<button class="btn btn-success btn-lg" onclick="showAssignmentGif()">Display Assignment 6 Write Up</button>
+				</div>
+				<div id="gif">
+					<img src="gif_cat.gif" alt="cat gif">
+					<h1>OOPS!</h1>
+					<p>Assignment 6 could not be found</p>
+				</div>
+				<div id="assignment4">
+					<h1>Assignment #4 Overview</h1>
+					<p>Establish your online presence with a simple web page written in HTML5. On this site you will create a Unix shell command cheat sheet where you will note:</p>
+					<ul>
+						<li>Unix shell command name</li>
+						<li>Description of command</li>
+						<li>Example usage</li>
+					</ul>
+					<br>
+					<p>At minimum your page should make use of the following HTML5 tags:</p>
+					<ul>
+						<li>&lt;title&gt;</li>
+						<li>&lt;p&gt;</li>
+						<li>&lt;span&gt;</li>
+						<li>&lt;h1&gt;</li>
+						<li>&lt;h2&gt;</li>
+						<li>&lt;table&gt;</li>
+						<li>&lt;th&gt;</li>
+						<li>&lt;tr&gt;</li>
+						<li>&lt;td&gt;</li>
+						<li>&lt;a&gt;</li>
+						<li>&lt;img&gt;</li>
+					</ul>
+					<br>
+					<p>Bonus points will be awarded if you display the example usage in a <span style="font-family: monospace;">monospace</span> font</p>
+				</div>
+
+				<div id="assignment5">
+					<h1>Assignment #5 Overview</h1>
+					<p>As a continuation of our previous assignment, improve the appearance of your static HTML page and make it fully HTML5 compliant by incorporating CSS into your HTML markup.</p>
+					<p>To get full credit on this assignment you will need to satisfy the following:</p>
+					<ul>
+						<li>Your site must pass the <a href="http://validator.w3.org/">W3's validator</a> with no errors or warnings. Submit the URL of the Validator's result page in Canvas' URL box below.</li>
+						<li>Put your webpage's source into a GitHub repository, and submit the GitHub URL in the text entry box on the assignment submission page.</li>
+						<li>Grant <a href="https://usu.instructure.com/courses/443436/discussion_topics/1458834">Read/Write access to your C9 workspace</a> to fadein, kamnayadav, and vaibhavsahu. Submit the C9 workspace URL in the text entry box on the assignment submission
+							page.
+						</li>
+					</ul>
+					<br>
+					<p>At minimum use the following CSS concepts in your updated page:</p>
+					<h4>CSS Properties</h4>
+					<ul>
+						<li>background-image</li>
+						<li>font-size</li>
+						<li>font-weight</li>
+						<li>font-family</li>
+						<li>display</li>
+						<li>border</li>
+						<li>vertical-align</li>
+						<li>text-align</li>
+					</ul>
+					<h4>CSS Properties</h4>
+					<ul>
+						<li>:hover</li>
+						<li>:visited</li>
+						<li>:first-of-type</li>
+						<li>:nth-child()</li>
+					</ul>
+					<br>
+					<p>You may need to make use of other properties and selectors to get the right effect. Refer to the MDN reference documentation and my totally awesome webpage for guidance.</p>
+					<ul>
+						<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Help</a></li>
+						<li><a href="https://github.com/fadein/hello-world-html5">fadein hello-world-html5</a></li>
+					</ul>
+					<br>
+					<h4>Extra Credit</h4>
+					<p>Extra points will be awarded to students who achieve the following:</p>
+					<ul>
+						<li>
+							<p><b>Animation effects</b></p>
+							<p>I don't want you to kill my CPU, so please style these on specific elements with the :hover selector so they only happen when I want them to. Note:
+								<i> changing the color of &lt;tr&gt; elements does not count as animation. When I say "animation effects," I'm talking about the @keyframes at-rule.</i></p>
+						</li>
+						<li>
+							<p><b>Sneaky clipboard hacking</b></p>
+							<p>If you can trick me into copying text that becomes something else in my clipboard buffer, you'll get extra points. You can use the technique we discussed in class on Friday, Feb 3, or another technique. If we fail to find it and thereby do not
+								award you your extra credit points, just point it out to us after the grades are released and you'll get extra extra credit for being sneaky. We'll be on lookout for this, so I doubt we'll have to adjust your score later. Please feel free to prove
+								me wrong.</p>
+						</li>
+					</ul>
+				</div>
+				<hr>
+				<h2><img src="unix-logo.png" alt="Unix Logo" height="30" width="30" style="margin:0px 5px 5px">Unix Shell Commands</h2>
+				<p>A list of basic unix shell commands and an example of implementation...</p>
+				<div class="panel panel-default">
+					<div class="panel-heading">Unix Shell Commands</div>
+					<table class="table">
+						<tr>
+							<th>Command</th>
+							<th>Description</th>
+							<th>Example</th>
+						</tr>
+						<tr>
+							<td class="td-mono">cat</td>
+							<td>outputs the contents of a text file</td>
+							<td class="td-mono">
+								<p>$ cat file1 >> file2</p>
+								<p>$ cat myfile</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">cd</td>
+							<td>changes your current directory location</td>
+							<td class="td-mono">
+								<p>$ cd myfiles</p>
+								<p>$ cd /home/dvader/empire_docs</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">cp</td>
+							<td>copies a file, preserving the original and creating an identical copy</td>
+							<td class="td-mono">
+								<p>$ cp -i oldfile newfile</p>
+								<p>$ cp -i oldfile ~/mystuff/newfile</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">df / du </td>
+							<td>reports disk usage (df:system file) </td>
+							<td class="td-mono">
+								<p>$ du</p>
+								<p>$ df</p>
+								<p>$ df -k</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">find</td>
+							<td>lists all of the files within a directory and its subdirectories that match a set of conditions</td>
+							<td class="td-mono">
+								<p>$ find . -name myfile.txt -print </p>
+								<p>$ find . -name "*.txt" -print</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">jobs or % [job number]</td>
+							<td>reports any programs that you suspended and still have running or waiting in the background</td>
+							<td class="td-mono">
+								<p>$ jobs </p>
+								<p>$ %2</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">kill</td>
+							<td>last resort to destroy any jobs or programs that you suspended and are unable to restart</td>
+							<td class="td-mono">
+								<p>$ kill %3</p>
+								<p>$ kill -9 %3</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">ls [options] [filename ...]</td>
+							<td>list files</td>
+							<td class="td-mono">
+								<p>$ ls</p>
+								<p>hello-world.html</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">man [command] or [-k keyword]</td>
+							<td>displays the manual page for a particular command</td>
+							<td class="td-mono">
+								<p>$ man ls/p>
+									<p>$ man -k keyword </p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">mkdir [-p] path</td>
+							<td>
+								<p>create a new directory under your PWD</p>
+								<p>With -p, create a new directory tree </p>
+							</td>
+							<td class="td-mono">
+								<p>$ mkdir mystuff </p>
+								<p>$ mkdir /tmp/morestuff </p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">mv -i [filename....] [directory ...]</td>
+							<td>$ move a file</td>
+							<td>$ mv -i newhw/hw1 oldhw/firsthw </td>
+						</tr>
+						<tr>
+							<td class="td-mono">ps [options] [PID ...]</td>
+							<td>list processes</td>
+							<td>
+								<p>$ ps -elf</p>
+								<p>$ ps -alxww</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">pwd</td>
+							<td>reports the current directory path</td>
+							<td>
+								<p>$ pwd</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">rm [options] [filename ...]</td>
+							<td>remove (destroy) a file</td>
+							<td>
+								<p>$ rm -i junk</p>
+								<p>$ rm -rf oldstuff</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">rmdir [subdirectory ...]</td>
+							<td>remove a subdirectory</td>
+							<td>
+								<p>$ rmdir oldstuff </p>
+							</td>
+						</tr>
+					</table>
+				</div>
+
+				<hr>
+				<h2><img src="git-logo.png" alt="Git Logo" height="30" width="30" style="margin:0px 5px 5px">Git Commands</h2>
+				<p>A list of basic git commands and an example of implementation...</p>
+				<div class="panel panel-default">
+					<div class="panel-heading">Git Commands</div>
+					<table class="table">
+						<tr>
+							<th>Command</th>
+							<th>Description</th>
+							<th>Example</th>
+						</tr>
+						<tr>
+							<td class="td-mono">git add [filename...]</td>
+							<td>add one or more files to staging (index)</td>
+							<td class="td-mono">
+								<p>git add myfile</p>
+								<p>git add *</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">git commit [option] [commit message...]</td>
+							<td>commit changes to head (but not yet to the remote repository)</td>
+							<td class="td-mono">
+								<p>git commit -m "Commit message"</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">git push [branch name...]</td>
+							<td>send changes to the master branch of your remote repository</td>
+							<td class="td-mono">
+								<p>git push origin master</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">git status</td>
+							<td>list the files you've changed and those you still need to add or commit</td>
+							<td class="td-mono">
+								<p>git status</p>
+							</td>
+						</tr>
+						<tr>
+							<td class="td-mono">git checkout [option -b] [branchname...]</td>
+							<td>create a new branch and switch to it</td>
+							<td class="td-mono">
+								<p>git checkout -b branch</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+				<hr>
+				<h2><img src="html-logo.png" alt="HTML logo" height="30" width="30" style="margin:0px 5px 5px">HTML Tags & Attributes</h2>
+				<p>A list of basic HTML tags and their attributes...</p>
+				<div class="panel panel-default">
+					<!-- Default panel contents -->
+					<div class="panel-heading">HTML Tags</div>
+					<table class="table">
+						<tr>
+							<th>Tag</th>
+							<th>Attributes</th>
+							<th>Description</th>
+							<th>Example</th>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;!DOCTYPE&gt;</td>
+							<td>n/a</td>
+							<td>defines the document type</td>
+							<td class="td-mono">&lt;!DOCTYPE html&gt;&lt;/html&gt;</td>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;title&gt;</td>
+							<td>n/a</td>
+							<td>defines a title for the document</td>
+							<td class="td-mono">&lt;title&gt;Example Title&lt;/title&gt;</td>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;body&gt;</td>
+							<td>supports global and event attributes</td>
+							<td>defines the document's body</td>
+							<td class="td-mono">&lt;body&gt;&lt;/body&gt;</td>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;h1&gt; to &lt;h6&gt;</td>
+							<td>align, supports global and event attributes</td>
+							<td>defines the document's body</td>
+							<td class="td-mono">&lt;h3&gt;Heading #3&lt;/h3&gt;</td>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;p&gt;</td>
+							<td>align, supports global and event attributes</td>
+							<td>defines a paragraph</td>
+							<td class="td-mono">&lt;p&gt;This is text that belongs in a paragraph&lt;/p&gt;</td>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;!--...--&gt;</td>
+							<td>n/a</td>
+							<td>defines a comment</td>
+							<td class="td-mono">&lt;!--&gt;comments are inserted here&lt;--&gt;</td>
+						</tr>
+						<tr>
+							<td class="td-mono">&lt;img&gt;</td>
+							<td>supports global attributes</td>
+							<td>defines an image</td>
+							<td class="td-mono">&lt;img src="unix-logo.png" alt="Unix Logo"&gt;</td>
+						</tr>
+					</table>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid text-center">
+		<h4>References</h4>
+		<p>
+			<a target="_blank" href="https://www.tjhsst.edu/~dhyatt/superap/unixcmd.html">UNIX SHELL COMMANDS</a> |
+			<a target="_blank" href="https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html">GIT COMMANDS</a> |
+			<a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">HTML ELEMENTS</a>
+		</p>
+		<p>2017 - Mary Dettenmaier - CS2610 - Assignment #4 - #5</p>
+	</footer>
+</body>
+
+</html>
